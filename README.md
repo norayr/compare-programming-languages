@@ -7,11 +7,11 @@ And all of them writen with defaults of interpereters/compilers.
 ##2. Tested languages
 * go
 * php
-* node js
-* python3
-* fpc
-* gcc
-* jdk
+* javascript (nodejs)
+* python (python 3)
+* freepascal (FPC)
+* C (gcc)
+* java (openjdk)
 
 ##3. Building
 just run **make**
