@@ -1,5 +1,4 @@
 program p;
-uses sysutils;
 function isPrime(ANumber:Integer):Boolean;
 var
 I:Integer;
@@ -15,16 +14,11 @@ end;
 
 var
 	I,count:Integer;
-	// tik:LongWord;
 begin
 	count:=0;
-	// tik:=GetTickCount();
 	for I:=2 to 1999 do begin
 		if (isPrime(I)) then begin
 			inc(count);
-			// Write('X');
 		end;
 	end;
-	// Writeln();
-	// Writeln(count,' Time To Calc : ',GetTickCount() - tik);
 end.
