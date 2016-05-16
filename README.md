@@ -20,21 +20,21 @@
 there is two way to getting time of execution time of codes.
 
 * One by one : make **languages** like make pascal
-    result will be like below:
-      Pascal
-      real  0m0.131s
-      user  0m0.093s
-      sys 0m0.000s
+        result will be like below:
+            Pascal
+            real  0m0.131s
+            user  0m0.093s
+            sys 0m0.000s
 
 * Get all in one step : make times
     for result of this command check _Some Result_ part
 
 ##5. Some Result
-*** my pc configure**
-    * cpu: core i7
-    * ram: 8GB
+### my pc configure
+*   cpu: core i7
+*   ram: 8GB
 
-** * Result **
+### Result
 
     $ make times
 
@@ -74,7 +74,7 @@ there is two way to getting time of execution time of codes.
     sys 0m0.073s
 
 ##6. Winner 
-Based on result in my pc ** C ** is winner.
+    Based on result in my pc **C** is winner.
 
 ##7. Contributing
-New languages and optimizing is highly appreciated.
+    New languages and optimizing is highly appreciated.
