@@ -1,10 +1,10 @@
 # Compare Programming Languages
 
-##1. What's does this codes ?
-    Codes finds all prime numbers betwean 2 .. 1999.
+##1. What are these codes doing ?
+    Codes are find all prime numbers betwean 2 .. 1999.
     And all of them writen with defaults of interpereters/compilers.
 
-##2. Requirements
+##2. Tested languages
     * go
     * php
     * node js
@@ -30,11 +30,11 @@
         for result of this command check _Some Result_ part
 
 ##5. Some Result
-    ###* my pc configure
+    *** my pc configure**
         * cpu: core i7
         * ram: 8GB
 
-    ###* Result
+    *** Result**
 
         $ make times
 
@@ -72,3 +72,9 @@
         real  0m0.710s
         user  0m0.593s
         sys 0m0.073s
+
+##6. Winner 
+    Based on result in my pc **C** is winner.
+
+##7. Contributing
+    New languages and optimizing is highly appreciated.
