@@ -1,40 +1,44 @@
 # Compare Programming Languages
 
 ##1. What are these codes doing ?
-    Codes are find all prime numbers betwean 2 .. 1999.
-    And all of them writen with defaults of interpereters/compilers.
+Codes are find all prime numbers betwean 2 .. 1999.<br />
+And all of them writen with defaults of interpereters/compilers.
 
 ##2. Tested languages
 * go
 * php
 * node js
-* python 3.+
-* fpc 3.+
+* python3
+* fpc
 * gcc
 * jdk
 
 ##3. Building
-    make
+just run **make**
 
 ##4. Geting execution time of codes
 there is two way to getting time of execution time of codes.
 
-* One by one : make **languages** like make pascal
-        result will be like below:
-            Pascal
-            real  0m0.131s
-            user  0m0.093s
-            sys 0m0.000s
+* One by one : using make **languages** command like `make pascal`
+    * result will be like below
+    
+        ```bash
+        Pascal
+        real  0m0.131s
+        user  0m0.093s
+        sys 0m0.000s
+        ```
 
-* Get all in one step : make times
-    for result of this command check _Some Result_ part
+* Get all in one step : `make times`
+
+    for result of this command check _**Some Result**_ part
 
 ##5. Some Result
-### my pc configure
+#### my pc configure
 *   cpu: core i7
 *   ram: 8GB
 
-### Result
+#### Result
 
     $ make times
 
@@ -74,7 +78,7 @@ there is two way to getting time of execution time of codes.
     sys 0m0.073s
 
 ##6. Winner 
-    Based on result in my pc **C** is winner.
+Based on result in my pc **C** is winner.
 
 ##7. Contributing
-    New languages and optimizing is highly appreciated.
+New languages and optimizing is highly appreciated.
