@@ -1,5 +1,6 @@
 all: clean
 	gcc p.c -o pc -Ofast
+	gfortran p.f95 -o pf -O7
 	fpc p.pas -O4
 	javac p.java
 	mv p pp
@@ -9,6 +10,9 @@ c:
 pascal:
 	@printf "\nPascal"
 	@eval "time sh time.sh	./pp"
+fortran:
+	@printf "\nFortran"
+	@eval "time sh time.sh	./pf"
 java:
 	@printf "\nJava"
 	@eval "time sh time.sh	\"java p\""
@@ -24,10 +28,11 @@ python:
 php:
 	@printf "\nPHP"
 	@eval "time sh time.sh	\"php p.php\""
-times: c pascal java go node python php
+times: c pascal fortran java go node python php
 	
 clean:
 	rm -f pc
 	rm -f p.o
 	rm -f pp
+	rm -f pf
 	rm -f p.class

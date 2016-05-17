@@ -11,6 +11,7 @@ And all of them writen with defaults of interpereters/compilers.
 * python (python 3)
 * freepascal (FPC)
 * C (gcc)
+* Fortran (gfortran)
 * java (openjdk)
 
 ##3. Building
@@ -43,42 +44,52 @@ there is two way to getting time of execution time of codes.
     $ make times
 
     C
-    real  0m0.033s
-    user  0m0.003s
+    real    0m0.041s
+    user    0m0.003s
     sys 0m0.007s
 
     Pascal
-    real  0m0.131s
-    user  0m0.093s
+    real    0m0.153s
+    user    0m0.117s
+    sys 0m0.003s
+
+    Fortran
+    real    0m0.043s
+    user    0m0.010s
     sys 0m0.000s
 
     Java
-    real  0m1.916s
-    user  0m1.690s
-    sys 0m0.273s
+    real    0m1.580s
+    user    0m1.413s
+    sys 0m0.210s
 
     Go
-    real  0m3.970s
-    user  0m4.823s
-    sys 0m0.423s
+    real    0m5.827s
+    user    0m4.190s
+    sys 0m0.427s
 
     Node JS
-    real  0m2.044s
-    user  0m1.853s
-    sys 0m0.157s
+    real    0m2.945s
+    user    0m2.050s
+    sys 0m0.187s
 
     Python
-    real  0m2.366s
-    user  0m2.197s
-    sys 0m0.133s
+    real    0m2.335s
+    user    0m2.190s
+    sys 0m0.063s
 
     PHP
-    real  0m0.710s
-    user  0m0.593s
-    sys 0m0.073s
+    real    0m0.989s
+    user    0m0.467s
+    sys 0m0.080s
 
 ##6. Winner 
 Based on result in my pc **C** is winner.
 
 ##7. Contributing
 New languages and optimizing is highly appreciated.
+
+##8. Thanks to
+* Awkward (pascal code optimizer)
+* mischi (fortran code writer)
+* aradeonas (my best friend)
