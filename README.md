@@ -92,4 +92,3 @@ New languages and optimizing is highly appreciated.
 ##8. Thanks to
 * Awkward (pascal code optimizer)
 * mischi (fortran code writer)
-* aradeonas (my best friend)
