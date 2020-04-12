@@ -1,0 +1,7 @@
+MODULE mod;
+
+IMPORT SYSTEM;
+
+PROCEDURE -mod*(x: INTEGER; y: INTEGER): INTEGER "(INTEGER)x % y";
+
+END mod.
